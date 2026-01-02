@@ -1,0 +1,110 @@
+<!-- TOP BAR (Fixed) -->
+<div class="kb-top-bar d-flex align-items-center text-white">
+    <div class="container-fluid px-3 d-flex justify-content-between align-items-center h-100">
+
+        <div class="kb-top-ticker flex-grow-1 d-flex align-items-center overflow-hidden me-4">
+            <div class="kb-ticker-wrapper-sm overflow-hidden w-100 position-relative">
+                <div class="kb-ticker-content text-white small fw-medium">
+                    <span>🚨 NCB seizes record quantity of contraband in high-seas operation.
+                        &nbsp;&nbsp;&bull;&nbsp;&nbsp; 📢
+                        New recruitment guidelines released for 2026. &nbsp;&nbsp;&bull;&nbsp;&nbsp; 📅 International
+                        Day Against
+                        Drug Abuse to be observed on June 26th.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="kb-top-actions d-flex align-items-center gap-3 small fw-bold">
+
+            <div id="tickerPlayBtn" class="kb-announce-play text-white" role="button" title="Play/Pause">
+                <i class="fas fa-circle-play"></i>
+            </div>
+
+            <div class="vr bg-white opacity-50"></div>
+
+            <a href="#" class="text-white text-decoration-none hover-opacity">Get App</a>
+
+            <div class="vr bg-white opacity-50"></div>
+
+            <a href="#" class="text-white text-decoration-none hover-opacity">Help</a>
+        </div>
+
+    </div>
+</div>
+<!-- Accessibility Icon -->
+<button class="btn btn-light kb-access-btn rounded-circle p-2" title="Accessibility Options">
+    <i class="fas fa-universal-access fa-lg text-primary"></i>
+</button>
+<header class="header-fixed-top py-3 glass-header">
+    <div class="container-fluid">
+        <div class="kb-header-inner d-flex align-items-center justify-content-between px-3 py-2">
+
+            <!-- Logo -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Sidebar Toggle (Mobile) -->
+                <button class="btn btn-link text-dark p-0 d-lg-none me-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#sidebarMenu">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+                <img src="img/logo.svg" alt="Logo" height="55">
+                <div class="logo-name d-flex flex-column">
+                    <span style="line-height: 1.1;">Narcotics Control Bureau</span>
+                    <span style="font-size: 1rem; line-height: 1.1;">नारकोटिक्स कंट्रोल ब्यूरो</span>
+                    <small class="text-muted logo-name2"
+                        style="font-size: 0.7rem; line-height: 1.2; font-weight: 500;">Intelligence, Enforcement, and
+                        Coordination</small>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <ul class="nav kb-nav d-none d-lg-flex">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About NCB</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Organization Structure</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">DLEA</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact me</a></li>
+            </ul>
+
+            <!-- Right Actions -->
+            <div class="d-flex align-items-center gap-3">
+
+                <button id="theme-toggle" class="btn btn-light kb-lang" aria-label="Toggle Dark Mode"
+                    style="width: 40px; justify-content: center; padding: 0;">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-light kb-lang dropdown-toggle" data-bs-toggle="dropdown">
+                        🌐 English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">हिंदी</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- Mobile Sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title fw-bold" id="sidebarMenuLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="nav flex-column gap-2 kb-mobile-nav">
+            <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="about.html">About NCB</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">Organization Structure</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">Media</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">Career</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">DLEA</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">Contact me</a></li>
+        </ul>
+    </div>
+</div>

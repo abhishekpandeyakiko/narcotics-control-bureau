@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grih Kalyan Kendra - Dept of Personnel & Training</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+    integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+
+
+
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+
+  <!-- --------------------------------first section ------------------------------------->
+  <!-- --------------------------------first section (Modern Split Redesigned) ------------------------------------->
+  <div class="kb-header-spacer"></div>
+
+  <section class="kb-hero-split-section position-relative overflow-hidden">
+    <div class="container position-relative z-2">
+      <div class="row align-items-center min-vh-75 py-5">
+
+        <!-- LEFT TEXT CONTENT -->
+        <div class="col-lg-5 mb-5 mb-lg-0 pe-lg-4">
+          <div class="animate-fade-in-up" style="animation-delay: 0.1s;">
+            <span
+              class="badge bg-soft-primary text-primary mb-2 px-3 py-2 rounded-pill fw-bold text-uppercase tracking-wide border border-primary border-opacity-10">
+              Ministry of Home Affairs
+            </span>
+          </div>
+
+          <h1 class="display-5 fw-bold mb-2 kb-hero-split-title animate-fade-in-up" style="animation-delay: 0.2s;">
+            Narcotics <br>
+            <span class="text-gradient-primary">Control Bureau</span>
+          </h1>
+
+          <p class="lead text-secondary mb-3 opacity-90 animate-fade-in-up" style="animation-delay: 0.3s;">
+            Apex coordinating agency ensuring a <strong>Drug-Free India</strong>. We are committed to stringent
+            enforcement, intelligence rooted in <strong>Article 47</strong>, and international cooperation for a safer
+            tomorrow.
+          </p>
+
+          <div class="d-flex gap-3 animate-fade-in-up" style="animation-delay: 0.4s;">
+            <a href="about.html" class="btn btn-primary btn-lg rounded-pill px-4 py-2 fw-bold shadow-lg btn-glow">
+              Explore <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg rounded-pill px-4 py-2 fw-bold">
+              Contact Us
+            </a>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="mt-3 pt-2 border-top d-inline-flex gap-3 animate-fade-in-up" style="animation-delay: 0.5s;">
+            <span class="text-muted small align-self-center me-2 fw-semibold">Connect:</span>
+            <a href="#" class="btn btn-icon btn-light rounded-circle shadow-sm text-primary hover-scale"><i
+                class="bi bi-twitter-x"></i></a>
+            <a href="#" class="btn btn-icon btn-light rounded-circle shadow-sm text-primary hover-scale"><i
+                class="bi bi-facebook"></i></a>
+            <a href="#" class="btn btn-icon btn-light rounded-circle shadow-sm text-primary hover-scale"><i
+                class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- RIGHT SLIDER CARD -->
+        <div class="col-lg-7 position-relative">
+          <!-- Decoration behind slider -->
+          <div
+            class="position-absolute top-0 end-0 translate-middle-y bg-primary opacity-10 rounded-circle blur-3xl animate-pulse-slow"
+            style="width: 300px; height: 300px; z-index: -1;"></div>
+
+          <div class="kb-hero-card-slider shadow-2xl rounded-4 overflow-hidden animate-fade-in-up">
+            <div id="kbHeroSplitSlider" class="carousel slide carousel-fade" data-bs-ride="carousel"
+              data-bs-interval="4000">
+
+              <div class="carousel-indicators mb-3">
+                <button type="button" data-bs-target="#kbHeroSplitSlider" data-bs-slide-to="0"
+                  class="active rounded-pill" style="width: 20px; height: 6px;"></button>
+                <button type="button" data-bs-target="#kbHeroSplitSlider" data-bs-slide-to="1" class="rounded-pill"
+                  style="width: 20px; height: 6px;"></button>
+                <button type="button" data-bs-target="#kbHeroSplitSlider" data-bs-slide-to="2" class="rounded-pill"
+                  style="width: 20px; height: 6px;"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/slider3.jpg" class="d-block w-100" style="object-fit: cover;" alt="NCB Action">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider2.png" class="d-block w-100" style="object-fit: cover;" alt="NCB Team">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider1.jpg" class="d-block w-100" style="object-fit: cover;" alt="NCB Awareness">
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#kbHeroSplitSlider"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3 bg-opacity-25"
+                  aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#kbHeroSplitSlider"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3 bg-opacity-25"
+                  aria-hidden="true"></span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ANNOUNCEMENT STRIP -->
+  <!-- <div class="kb-announcement-bar bg-dark text-white border-bottom py-2 position-relative z-2">
+    <div class="container d-flex align-items-center">
+
+      <div class="kb-announce-label badge bg-danger text-uppercase tracking-wider me-2 shadow-sm">
+        Announcement
+      </div>
+
+      <div class="kb-announce-play text-warning me-2 animate-pulse-slow" role="button">
+        <i class="fas fa-circle-play fs-5"></i>
+      </div>
+
+      <div
+        class="kb-ticker-wrapper flex-grow-1 bg-white bg-opacity-10 rounded-pill border border-secondary px-3 py-1 mx-2 shadow-inner overflow-hidden position-relative">
+        <div class="kb-ticker-content text-light small fw-medium d-flex align-items-center h-100">
+          <span class="d-inline-block">🚨 NCB seizes record quantity of contraband in high-seas operation.
+            &nbsp;&nbsp;&bull;&nbsp;&nbsp; 📢 New recruitment guidelines released for 2026.
+            &nbsp;&nbsp;&bull;&nbsp;&nbsp; 📅 International Day Against Drug Abuse to be observed on June 26th.</span>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn-sm btn-link text-warning text-decoration-none fw-bold text-nowrap small hover-scale">
+        View All <i class="fas fa-arrow-right ms-1"></i>
+      </a>
+    </div>
+  </div> -->
+
+  <!-- -------------------------------- SECTION 3: CORE VALUES ------------------------------------->
+  <section class="kb-core-values py-5 position-relative overflow-hidden">
+    <!-- Background Decor (Optional) -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 z-0 opacity-10"
+      style="background: radial-gradient(circle at 50% 50%, #4cc9f0 0%, transparent 50%); mix-blend-mode: overlay;">
+    </div>
+
+    <div class="container position-relative z-1">
+      <div class="row g-4 justify-content-center">
+        <!-- Card 1: Motto -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="kb-value-card h-100 p-4 text-center rounded-4 position-relative overflow-hidden">
+            <div class="kb-card-decor"></div>
+            <div class="kb-icon-wrapper mb-4 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+              <i class="fas fa-users fs-2"></i>
+            </div>
+            <h3 class="h4 fw-bold mb-3">Our Motto</h3>
+            <p class="mb-0">Intelligence, Enforcement, Coordination</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Mission -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="kb-value-card h-100 p-4 text-center rounded-4 position-relative overflow-hidden">
+            <div class="kb-card-decor"></div>
+            <div class="kb-icon-wrapper mb-4 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+              <i class="fas fa-chart-line fs-2"></i>
+            </div>
+            <h3 class="h4 fw-bold mb-3">Our Mission</h3>
+            <p class="mb-0">Prevent and combat abuse and illicit traffic of drugs</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Vision -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="kb-value-card h-100 p-4 text-center rounded-4 position-relative overflow-hidden">
+            <div class="kb-card-decor"></div>
+            <div class="kb-icon-wrapper mb-4 mx-auto rounded-circle d-flex align-items-center justify-content-center">
+              <i class="fas fa-eye fs-2"></i>
+            </div>
+            <h3 class="h4 fw-bold mb-3">Our Vision</h3>
+            <p class="mb-0">Endeavour for a drug free society</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Re-structure Main content wrapper if needed -->
+  <main> <!-- Removed container here to allow full width for sections, specific sections can have container -->
+
+    <!-- National Policy Intro Section -->
+    <!-- National Policy Intro Section (2-Column Redesign) -->
+    <section class="kb-intro-policy py-5">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- Left Column: Content -->
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="pe-lg-4">
+              <span
+                class="badge bg-light text-primary mb-3 px-3 py-2 rounded-pill fw-bold border border-primary border-opacity-25">Constitutional
+                Mandate</span>
+              <h2 class="display-6 fw-bold mb-4" style="color: var(--theme-dark-blue);">National Policy & Legislative
+                Framework</h2>
+
+              <p class="text-secondary lead" style="font-size: 1.1rem;">
+                The National Policy on Narcotic Drugs is rooted in <strong>Article 47</strong> of the Indian
+                Constitution, directing the State to endeavour to bring about prohibition of the consumption of
+                intoxicating drugs injurious to health.
+              </p>
+
+              <p class="text-muted small mb-4">
+                This constitutional provision is further guided by India's commitment as a signatory to international
+                conventions:
+                <span class="d-block mt-2">
+                  <i class="fas fa-check-circle text-success me-1"></i> Single Convention on Narcotic Drugs, 1961<br>
+                  <i class="fas fa-check-circle text-success me-1"></i> Convention on Psychotropic Substances,
+                  1971<br>
+                  <i class="fas fa-check-circle text-success me-1"></i> UN Convention against Illicit Traffic, 1988
+                </span>
+              </p>
+
+              <h5 class="fw-bold text-primary mb-3">Broad Legislative Policy</h5>
+              <p class="text-muted mb-4">
+                The legislative framework is contained in three Central Acts:
+              </p>
+              <div class="row g-3 mb-4">
+                <div class="col-md-4">
+                  <div class="p-3 bg-light rounded-3 h-100 border border-light shadow-sm">
+                    <strong class="d-block text-dark mb-1">1940</strong>
+                    <span class="small text-secondary">Drugs & Cosmetics Act</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-3 bg-white rounded-3 h-100 border border-primary border-opacity-25 shadow-sm">
+                    <strong class="d-block text-primary mb-1">1985</strong>
+                    <span class="small text-secondary">The NDPS Act</span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-3 bg-light rounded-3 h-100 border border-light shadow-sm">
+                    <strong class="d-block text-dark mb-1">1988</strong>
+                    <span class="small text-secondary">Prevention of Illicit Traffic Act</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="text-muted small border-start border-4 border-primary ps-3 fst-italic">
+                The <strong>Narcotics Control Bureau</strong> was constituted on 17th March 1986 as the Central
+                Authority under the NDPS Act, 1985 to coordinate drug abuse control functions across various
+                Ministries and Departments.
+              </p>
+
+              <a href="about.html" class="btn btn-primary rounded-pill px-4 mt-2">
+                Read More about NCB <i class="fas fa-arrow-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Visual -->
+          <div class="col-lg-5">
+            <div class="position-relative">
+              <div class="kb-feature-card text-center border-0 shadow-lg p-5"
+                style="background: linear-gradient(135deg, var(--theme-dark-blue), var(--theme-primary)); color: white;">
+                <i class="fas fa-balance-scale fa-4x mb-4 text-info opacity-75"></i>
+                <h3 class="fw-bold mb-3">Zero Tolerance</h3>
+                <p class="opacity-75 mb-4">Committed to a Drug-Free India through Intelligence, Enforcement &
+                  Coordination.</p>
+
+                <div class="d-flex justify-content-center gap-3 mt-4">
+                  <div class="text-center">
+                    <h2 class="fw-bold text-warning mb-0">1986</h2>
+                    <span class="small text-white-50">Established</span>
+                  </div>
+                  <div class="vr bg-light opacity-25"></div>
+                  <div class="text-center">
+                    <h2 class="fw-bold text-info mb-0">24x7</h2>
+                    <span class="small text-white-50">Enforcement</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Decorative Element -->
+              <div style="position: absolute; top: -20px; right: -20px; z-index: -1;">
+                <i class="fas fa-shield-alt text-light opacity-50"
+                  style="font-size: 15rem; transform: rotate(15deg);"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DG MESSAGE SECTION -->
+    <section class="kb-dg-section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+
+          <!-- Left: Profile Card -->
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="kb-dg-card">
+              <div class="kb-dg-img-wrapper">
+                <!-- Placeholder Image - User to replace -->
+                <img src="img/profile.jpeg" alt="Shri Anurag Garg" class="kb-dg-img">
+              </div>
+
+              <h3 class="kb-dg-name">Shri Anurag Garg</h3>
+              <div class="kb-dg-desig">Director General (IPS)</div>
+              <div class="kb-dg-batch">Himachal Pradesh: 1993</div>
+
+              <div class="kb-dg-org">
+                Narcotics Control Bureau<br>
+                <div class="small fw-normal text-white-50 mt-1">Ministry of Home Affairs</div>
+                <div class="small fw-normal text-white-50">Government of India</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Message Content -->
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="kb-dg-content position-relative">
+              <i class="fas fa-quote-right kb-quote-icon"></i>
+
+              <h3 class="fs-4 fw-bold text-gradient-gold">Dear Friends,</h3>
+
+              <p>
+                Welcome to the official website of the Narcotics Control Bureau (NCB), India. As the nation's premier
+                agency in the fight against drug trafficking and abuse, the NCB is committed to safeguarding the health
+                and security of our society by eliminating the menace of narcotic drugs and psychotropic substances.
+              </p>
+
+              <p>
+                Our mission is multifaceted—ranging from intelligence gathering and enforcement to rehabilitation
+                efforts and public awareness. We work relentlessly to strengthen coordination among central and state
+                agencies and engage with international partners to ensure that India's borders remain impervious to the
+                illicit drug trade.
+              </p>
+
+              <p class="mb-0">
+                In recent years, we have made significant strides in curbing drug-related crimes through our focused
+                operations, enhanced inter-agency collaboration, and increased technological capabilities. Together, let
+                us strive for a drug-free India.
+              </p>
+
+              <div class="mt-4 text-end">
+                <span class="fs-5 fw-bold" style="font-family: 'Dancing Script', cursive; color: #fff;">Warm
+                  Regards</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+  </div>
+
+  <!-- ==================== UPDATES SECTION (Activities, Events, News) ==================== -->
+  <section class="kb-updates-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="kb-update-card">
+            <div class="kb-card-header d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-activity"></i>
+                <h5 class="mb-0">Recent Activities</h5>
+              </div>
+              <button class="btn btn-sm btn-light rounded-circle kb-scroll-toggle" title="Pause/Play">
+                <i class="bi bi-pause-fill"></i>
+              </button>
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-scroll-view">
+                <div class="kb-scroll-wrapper">
+                  <ul class="kb-update-list">
+                    <li>
+                      <span class="kb-date">Dec 24, 2024</span>
+                      <p>Health Checkup Camp aimed at providing free medical checkups.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Dec 20, 2024</span>
+                      <p>Yoga Session for senior citizens at Community Centre.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Dec 15, 2024</span>
+                      <p>Art & Craft Workshop organized for children.</p>
+                    </li>
+                    <!-- Duplicate content for seamless scrolling -->
+                    <li>
+                      <span class="kb-date">Dec 24, 2024</span>
+                      <p>Health Checkup Camp aimed at providing free medical checkups.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Dec 20, 2024</span>
+                      <p>Yoga Session for senior citizens at Community Centre.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Dec 15, 2024</span>
+                      <p>Art & Craft Workshop organized for children.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="kb-read-more">View All Activities <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: EVENTS -->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="kb-update-card">
+            <div class="kb-card-header d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-calendar-event"></i>
+                <h5 class="mb-0">Upcoming Events</h5>
+              </div>
+              <button class="btn btn-sm btn-light rounded-circle kb-scroll-toggle" title="Pause/Play">
+                <i class="bi bi-pause-fill"></i>
+              </button>
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-scroll-view">
+                <div class="kb-scroll-wrapper">
+                  <ul class="kb-update-list">
+                    <li>
+                      <span class="kb-date">Jan 01, 2025</span>
+                      <p>New Year Celebration Event at Main Auditorium.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Jan 15, 2025</span>
+                      <p>Annual Sports Day Registration begins.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Jan 26, 2025</span>
+                      <p>Republic Day Parade & Flag Hoisting Ceremony.</p>
+                    </li>
+                    <!-- Duplicate content -->
+                    <li>
+                      <span class="kb-date">Jan 01, 2025</span>
+                      <p>New Year Celebration Event at Main Auditorium.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Jan 15, 2025</span>
+                      <p>Annual Sports Day Registration begins.</p>
+                    </li>
+                    <li>
+                      <span class="kb-date">Jan 26, 2025</span>
+                      <p>Republic Day Parade & Flag Hoisting Ceremony.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="kb-read-more">View All Events <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: NEWS UPDATES -->
+        <div class="col-lg-4">
+          <div class="kb-update-card">
+            <div class="kb-card-header d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-newspaper"></i>
+                <h5 class="mb-0">News Updates</h5>
+              </div>
+              <button class="btn btn-sm btn-light rounded-circle kb-scroll-toggle" title="Pause/Play">
+                <i class="bi bi-pause-fill"></i>
+              </button>
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-scroll-view">
+                <div class="kb-scroll-wrapper">
+                  <ul class="kb-update-list">
+                    <li>
+                      <span class="kb-tag">New</span>
+                      <p>Grih Kalyan Kendra announces new welfare schemes for 2025.</p>
+                    </li>
+                    <li>
+                      <p>Updated guidelines for booking community halls released.</p>
+                    </li>
+                    <li>
+                      <p>Maintenance work scheduled for Delhi centers next week.</p>
+                    </li>
+                    <!-- Duplicate content -->
+                    <li>
+                      <span class="kb-tag">New</span>
+                      <p>Grih Kalyan Kendra announces new welfare schemes for 2025.</p>
+                    </li>
+                    <li>
+                      <p>Updated guidelines for booking community halls released.</p>
+                    </li>
+                    <li>
+                      <p>Maintenance work scheduled for Delhi centers next week.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="kb-read-more">Read Recent News <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PHOTO GALLERY SECTION ==================== -->
+  <section class="kb-photo-gallery">
+    <div class="container">
+      <!-- Gallery Header + Controls -->
+      <div class="kb-gallery-header">
+        <h2 class="kb-section-title mb-0">Photo Gallery</h2>
+        <div class="d-flex gap-2">
+          <button class="kb-gallery-btn" id="prevBtn" title="Previous"><i class="fas fa-chevron-left"></i></button>
+          <button class="kb-gallery-btn" id="nextBtn" title="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+
+      <div class="kb-gallery-wrapper" id="galleryWrapper">
+        <div class="kb-gallery-track">
+          <!-- Gallery Items (Original) -->
+          <div class="kb-gallery-item"><img src="img/img5.jpeg" alt="Gallery Image 5"></div>
+          <div class="kb-gallery-item"><img src="img/img2.jpeg" alt="Gallery Image 6"></div>
+
+          <!-- Gallery Items (Duplicate for Seamless Loop) -->
+          <div class="kb-gallery-item"><img src="img/img1.jpeg" alt="Gallery Image 1"></div>
+          <div class="kb-gallery-item"><img src="img/img2.jpeg" alt="Gallery Image 2"></div>
+          <div class="kb-gallery-item"><img src="img/img4.jpeg" alt="Gallery Image 3"></div>
+          <div class="kb-gallery-item"><img src="img/img6.jpeg" alt="Gallery Image 4"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT & ENQUIRY SECTION ==================== -->
+  <section class="kb-contact-section">
+    <div class="kb-contact-map-bg"></div>
+    <div class="container position-relative">
+      <div class="row">
+        <!-- Contact NCB -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h3 class="kb-contact-title">Contact NCB</h3>
+
+          <div class="kb-contact-block">
+            <p class="kb-contact-subtitle mb-3">Report Incidents of Drug Trafficking / Accident or Serious Incidents</p>
+
+            <div class="d-flex align-items-center mb-2">
+              <span class="me-2 opacity-75">Telephone No. :</span>
+              <span class="fs-4 fw-bold text-gradient-gold">+91-11-26761000</span>
+            </div>
+
+            <div class="d-flex align-items-start">
+              <span class="me-2 opacity-75 text-nowrap">Email Id. :</span>
+              <div>
+                <a href="mailto:ddge-ncb@nic.in"
+                  class="d-inline-block text-white text-decoration-none border-bottom border-white border-opacity-25 pb-0 mb-1 hover-lift">ddge-ncb@nic.in</a>
+                <span class="mx-1">&</span>
+                <a href="mailto:adenf-ncb@nic.in"
+                  class="d-inline-block text-white text-decoration-none border-bottom border-white border-opacity-25 pb-0 hover-lift">adenf-ncb@nic.in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- General Enquiry -->
+        <div class="col-lg-6">
+          <h3 class="kb-contact-title">General Enquiry</h3>
+
+          <div class="kb-contact-block">
+            <div class="row">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <strong class="d-block mb-2 fs-5">NARCOTICS CONTROL BUREAU</strong>
+                <address class="fst-normal opacity-90 mb-0">
+                  West Block No. 1, Wing No. 5,<br>
+                  RK Puram,<br>
+                  New Delhi-110066
+                </address>
+              </div>
+
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <span class="d-block opacity-75 mb-1">Email Address :</span>
+                  <a href="mailto:adops-ncb@nic.in"
+                    class="text-white text-decoration-none border-bottom border-white border-opacity-25 pb-0 hover-lift">adops-ncb@nic.in</a>
+                </div>
+
+                <div>
+                  <span class="d-block opacity-75 mb-1">Telephone No.</span>
+                  <div class="d-flex flex-column gap-1">
+                    <span>+91-11-26761000</span>
+                    <span>+91-11-26761144</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Strip -->
+    <div class="kb-contact-footer text-center mt-5">
+      <div class="container">
+        <h5 class="mb-2 fw-bold text-uppercase opacity-90">NCB News-Content</h5>
+        <p class="mb-0 small opacity-75">Email: ddge-ncb@nic.in / adops-ncb@nic.in</p>
+      </div>
+    </div>
+
+
+    <!-- ==================== GOVERNMENT LINKS SECTION ==================== -->
+    <section class="kb-gov-links">
+      <div class="container">
+        <div class="kb-gov-track">
+          <!-- Digital India -->
+          <a href="" target="_blank" class="kb-gov-item">
+            <img src="img/link1.png" alt="Digital India">
+          </a>
+
+          <!-- India.gov.in -->
+          <a href="" target="_blank" class="kb-gov-item">
+            <img src="img/link2.jpeg" alt="National Portal of India">
+          </a>
+
+          <!-- Election Commission (Placeholder) -->
+          <a href="" target="_blank" class="kb-gov-item">
+            <img src="img/link3.png" alt="Election Commission of India">
+          </a>
+
+          <!-- Make in India -->
+          <a href="" target="_blank" class="kb-gov-item">
+            <img src="img/link4.png" alt="Make in India">
+          </a>
+
+          <!-- MyGov -->
+          <a href="" target="_blank" class="kb-gov-item">
+            <img src="img/link5.png" alt="MyGov">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components Script -->
+    <script src="js/components.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // --- Photo Gallery Logic ---
+        const galleryWrapper = document.getElementById('galleryWrapper');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        let scrollAmount = 0;
+        let scrollAccumulator = 0;
+        const speed = 0.5; // Reduced speed (0.5px per frame = ~30px per sec)
+        let isHovered = false;
+        let isManualScrolling = false;
+        let manualScrollTimeout;
+
+        // Auto Scroll Function
+        function autoScroll() {
+          // Only scroll if NOT hovered and NOT currently manually scrolling
+          if (!isHovered && !isManualScrolling) {
+            scrollAccumulator += speed;
+            if (scrollAccumulator >= 1) {
+              galleryWrapper.scrollLeft += 1;
+              scrollAccumulator -= 1;
+            }
+
+            // Infinite Scroll Check
+            // If we've scrolled past half (where duplicates start), reset to 0
+            // Use a tolerance to prevent jitter
+            if (galleryWrapper.scrollLeft >= (galleryWrapper.scrollWidth / 2)) {
+              galleryWrapper.scrollLeft = 0;
+            }
+          }
+          requestAnimationFrame(autoScroll);
+        }
+
+        // Start Auto Scroll
+        requestAnimationFrame(autoScroll);
+
+        // Pause on Hover (Gallery)
+        galleryWrapper.addEventListener('mouseenter', () => isHovered = true);
+        galleryWrapper.addEventListener('mouseleave', () => isHovered = false);
+
+        // Pause on Hover (Buttons) - so user can aim without it moving
+        prevBtn.addEventListener('mouseenter', () => isHovered = true);
+        prevBtn.addEventListener('mouseleave', () => isHovered = false);
+        nextBtn.addEventListener('mouseenter', () => isHovered = true);
+        nextBtn.addEventListener('mouseleave', () => isHovered = false);
+
+        // Helper to handle manual scroll
+        function performManualScroll(amount) {
+          isManualScrolling = true;
+          galleryWrapper.scrollBy({ left: amount, behavior: 'smooth' });
+
+          // Reset timeout if exists
+          if (manualScrollTimeout) clearTimeout(manualScrollTimeout);
+
+          // Resume auto-scroll after animation (approx 500ms for smooth scroll)
+          manualScrollTimeout = setTimeout(() => {
+            isManualScrolling = false;
+          }, 600);
+        }
+
+        // Button Controls
+        nextBtn.addEventListener('click', () => {
+          performManualScroll(300); // Slide Next
+        });
+
+        prevBtn.addEventListener('click', () => {
+          performManualScroll(-300); // Slide Back
+        });
+
+
+        // --- Existing Scroll Toggles Logic ---
+        const scrollToggles = document.querySelectorAll('.kb-scroll-toggle');
+
+        scrollToggles.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const card = btn.closest('.kb-update-card');
+            const wrapper = card.querySelector('.kb-scroll-wrapper');
+            const icon = btn.querySelector('i');
+
+            if (wrapper) {
+              wrapper.classList.toggle('paused');
+
+              if (wrapper.classList.contains('paused')) {
+                icon.classList.remove('bi-pause-fill');
+                icon.classList.add('bi-play-fill');
+              } else {
+                icon.classList.remove('bi-play-fill');
+                icon.classList.add('bi-pause-fill');
+              }
+            }
+          });
+        });
+        // --- Announcement Strip Logic (Universal) ---
+        // Handles both Top Bar and Bottom Announcement Strip
+        const playButtons = document.querySelectorAll('.kb-announce-play');
+
+        playButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            // Find the closest wrapper (top bar or announcement bar)
+            const parentBar = btn.closest('.kb-top-bar') || btn.closest('.kb-announcement-bar');
+            if (!parentBar) return;
+
+            const ticker = parentBar.querySelector('.kb-ticker-content');
+            const icon = btn.querySelector('i');
+
+            if (ticker && icon) {
+              ticker.classList.toggle('paused');
+
+              if (ticker.classList.contains('paused')) {
+                icon.classList.remove('fa-circle-play');
+                icon.classList.add('fa-circle-pause');
+              } else {
+                icon.classList.remove('fa-circle-pause');
+                icon.classList.add('fa-circle-play');
+              }
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
