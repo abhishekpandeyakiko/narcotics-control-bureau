@@ -2739,4 +2739,58 @@ body {
 
 .bg-dark {
   background-color: #dbdbdb !important;
+
+}
+.btn-tip {
+  background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+  color: #fff !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 9px 15px;
+  /* Reduced padding */
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* Reduced gap */
+  font-size: 0.8rem;
+  /* Smaller font text */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.btn-tip::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-tip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.6);
+  background: linear-gradient(135deg, #f87171 0%, #dc2626 100%);
+}
+
+.btn-tip:hover::before {
+  opacity: 1;
+}
+
+.btn-tip i {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.btn-tip:hover i {
+  transform: rotate(-15deg) scale(1.1);
 }
